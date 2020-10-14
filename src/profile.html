@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('components/_head.html')
+
+<body>
+  @@include('components/_header.html')
+  <!-- WRITE CODE HERE -->
+
+  <section class="section profile">
+    <div class="container">
+      <div class="row">
+        <h1 class="h1 col">Личный кабинет</h1>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="profile-nav nav" role="tablist">
+            <a class="profile-nav-item btn active" href="#orders" data-toggle="tab" role="tab">Заказы</a>
+            <a class="profile-nav-item btn" href="#personal" data-toggle="tab" role="tab">Личные Данные</a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="orders" role="tabpanel">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="profile-order">
+                <div class="profile-order-title row">
+                  Заказ №51685465 от 14.09.2020  13:38
+                  <a href="#" class="profile-order-cancel">Отменить заказ</a>
+                </div>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="profile-order-item">
+                      <span class="profile-order-item-name">Химчистка обуви из кожи</span>
+                      <span class="profile-order-item-count">2 шт.</span>
+                      <span class="profile-order-item-price">8 000 ₽</span>
+                    </div>
+                    <div class="profile-order-item">
+                      <span class="profile-order-item-name">Ручная чистка сумок до 30см (сложные)</span>
+                      <span class="profile-order-item-count">1 шт.</span>
+                      <span class="profile-order-item-price">5 000 ₽</span>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="profile-order-total">
+                      <p class="profile-order-status">Статус: 
+                        <span class="value">в работе</span>
+                      </p>
+                      <p class="profile-order-sum">Итого:
+                        <span class="value">00 000 ₽</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile-order">
+                <div class="profile-order-title row">
+                  Заказ №51685465 от 14.09.2020  13:38
+                  <a href="#" class="profile-order-cancel">Повторить заказ</a>
+                </div>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="profile-order-item">
+                      <span class="profile-order-item-name">Химчистка обуви из кожи</span>
+                      <span class="profile-order-item-count">2 шт.</span>
+                      <span class="profile-order-item-price">8 000 ₽</span>
+                    </div>
+                    <div class="profile-order-item">
+                      <span class="profile-order-item-name">Ручная чистка сумок до 30см (сложные)</span>
+                      <span class="profile-order-item-count">1 шт.</span>
+                      <span class="profile-order-item-price">5 000 ₽</span>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="profile-order-total">
+                      <p class="profile-order-status">Статус: 
+                        <span class="value">завершен</span>
+                      </p>
+                      <p class="profile-order-sum">Итого:
+                        <span class="value">00 000 ₽</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="profile-bonus-info">
+                <p class="profile-bonus-title">Накоплено бонусов
+                  <span class="profile-bonus-sum">00 000</span>
+                </p>
+                <div class="profile-bonus-bottom">
+                  <span class="profile-bonus-text">Как получить и на что потратить бонусы</span>
+                  <a href="#" class="btn btn--fill" data-toggle="modal" data-target="#modal--bonus">Узнать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="personal" role="tabpanel">
+          <form class="row form-order">
+            <div class="col-md-4">
+              <p class="form-order-title">Контактные данные</p>
+              <div class="form-group">
+                <label class="sr-only" for="order-surname">ФИО</label>
+                <input id="order-surname" class="form-control" type="text" placeholder="ФИО" required>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="order-email">E-mail</label>
+                <input id="order-email" class="form-control" type="email" placeholder="E-mail" required>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="order-tel">Телефон</label>
+                <input id="order-tel" class="form-control" type="tel" placeholder="8 (___) ___ - ____" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p class="form-order-title">Адрес</p>
+              <div class="form-group">
+                <label class="sr-only" for="order-street">Улица</label>
+                <input id="order-street" class="form-control" type="text" placeholder="Улица" required>
+              </div>
+              <div class="d-flex form-group-home">
+                <div class="form-group mr-1">
+                  <label class="sr-only" for="order-house">Дом</label>
+                  <input id="order-house" class="form-control" type="text" placeholder="Дом" required>
+                </div>
+                <div class="form-group mr-1">
+                  <label class="sr-only" for="order-tel">Корпус</label>
+                  <input id="order-tel" class="form-control" type="text" placeholder="Корпус" required>
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="order-tel">Квартира</label>
+                  <input id="order-tel" class="form-control" type="text" placeholder="Квартира" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="order-tel">Коментарий</label>
+                <input id="order-tel" class="form-control" type="text" placeholder="Коментарий" required>
+              </div>
+
+              <button type="submit" class="btn btn--fill w-100">Сохранить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('components/modal--bonus.html')
+
+ <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+.categories-list {
+  margin-bottom: 80px;
+}
+
+.categories-item {
+  display: block;
+  height: 160px;
+  padding: 15px;
+
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #C2B89F;
+  background-repeat: no-repeat;
+  background-position: right center;
+  transition: 0.5s;
+}
+
+.categories-item:hover {
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+}
+
+.categories-shoes {
+  background-image: url('../images/footwear.png');
+}
+
+.categories-clothes {
+  background-color: #F5F9FA;
+  background-image: url('../images/clothes.png');
+}
+
+.categories-bags {
+  background-image: url('../images/bag.png');
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .categories-item {
+    background-position: right -70px center;
+  }
+}
+
+@media (max-width: 576px) {
+  .categories-item {
+    margin-bottom: 15px;
+  }
+}

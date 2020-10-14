@@ -1,0 +1,45 @@
+<header class="header fixed-top">
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg w-100">
+          <a href="/" class="navbar-brand mr-auto">
+            <picture>
+              <source srcset="images/logo-mobile.png" media="(max-width: 576px)">
+              <img src="images/logo.png" alt="Logo">
+            </picture>
+          </a>
+
+          <div class="navbar-user">
+            <a class="user-link link-instagram" href="https://www.instagram.com/lalunahome" target="blanc">
+              @@include('../images/icon-instagram.svg')
+              Direct
+            </a>
+            <a class="user-link btn-tel d-lg-none">
+              @@include('../images/icon-phone.svg')
+            </a>
+            <a class="user-link link-tel d-none d-lg-block" href="tel:+79852277704">
+              @@include('../images/icon-phone.svg')
+              +7 (985) 227-7704
+            </a>
+            <a href="#" class="btn btn--recall d-none d-lg-block" data-toggle="modal" data-target="#modal--recall">
+              Заказать звонок
+            </a>
+            <a href="/account.html" class="user-link link-profile" title="Профиль" data-toggle="modal" data-target="#modal--login">
+              @@include('../images/icon-user.svg')
+              Профиль
+            </a>
+            <a href="/cart.html" class="user-link link-cart" title="Корзина">
+              @@include('../images/icon-cart.svg')
+              Корзина
+              <span class="link-cart-count">2</span>
+            </a>
+          </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+@@include('modal--login.html')
+@@include('modal--reg.html')
+@@include('modal--recall.html')
+@@include('modal--cart.html')

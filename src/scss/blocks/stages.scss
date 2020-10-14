@@ -1,0 +1,91 @@
+.stages {
+  background: #F2F2F2;
+}
+
+.stages-item {
+  position: relative;
+  text-align: center;
+
+  &:before {
+    content: "";
+
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:nth-child(1):before {
+    background-image: url('../images/icon-how-1.svg');
+  }
+
+  &:nth-child(2):before {
+    background-image: url('../images/icon-how-2.svg');
+    background-position: 60% center;
+  }
+
+  &:nth-child(3):before {
+    background-image: url('../images/icon-how-3.svg');
+  }
+
+  &:nth-child(1):after,
+  &:nth-child(2):after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 0;
+
+    display: block;
+    // width: 45%;
+    width: 128px;
+    height: 19px;
+    margin: 0 auto;
+    background: url('../images/icon-arrow-arc.svg') no-repeat / contain;
+    transform: translateX(110%);
+  }
+
+  &:nth-child(2):after {
+    transform: translateX(110%) scale(1, -1);
+  }
+}
+
+
+@media (max-width: 992px) {
+  .stages-item {
+    display: flex;
+    align-items: center;
+
+    height: 60px;
+    padding-left: 90px;
+    margin-bottom: 20px;
+    text-align: left;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 15px;
+
+      width: 60px;
+      height: 60px;
+      background-size: 50%;
+    }
+
+    &:nth-child(2):before {
+      background-size: 70%;
+    }
+    
+    &:nth-child(1):after,
+    &:nth-child(2):after {
+      width: 6px;
+      height: 18px;
+      background: url('../images/icon-arrow-down.svg') no-repeat / contain;
+      transform: none;
+    }
+  }
+}

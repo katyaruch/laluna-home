@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('components/_head.html')
+
+<body>
+  @@include('components/_header.html')
+  <!-- WRITE CODE HERE -->
+
+  <section class="first d-flex align-items-center h-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-5">
+          <h1 class="h1">Химчистка и ремонт одежды, обуви, сумок</h1>
+          <p class="text">Мы заберём вещи в любое удобное время,<br>а затем доставим по нужному адресу</p>
+          <select class="timeslot" name="select-data">
+            <option value="value1" selected>
+              <span class="timeslot-data">Сегодня, 26 сентября
+              <span class="timeslot-time">18:00-20:00</span>
+            </option> 
+            <option value="value2">
+              <span class="timeslot-data">Завтра, 27 сентября
+              <span class="timeslot-time">10:00-12:00</span>
+            </option>
+            <option value="value3">
+              <span class="timeslot-data">Завтра, 27 сентября
+              <span class="timeslot-time">12:00-14:00</span>
+            </option>
+          </select>
+          <a href="#" class="btn btn--fill">Вызвать курьера</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section stages">
+    <div class="container">
+      <div class="row">
+        <h2 class="h1 col text-center">Как мы работаем</h2>
+      </div>
+      <div class="row stages-list justify-content-center">
+        <div class="col-md-7 col-lg-3 stages-item">
+          Забираем изделия<br> в удобное для Вас время
+        </div>
+        <div class="col-md-7 col-lg-4 stages-item">
+          Чистим, реставрируем, приводим в первозданный вид
+        </div>
+        <div class="col-md-7 col-lg-3 stages-item">
+          Бережно доставляем по нужному адресу
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section categories">
+    <div class="container">
+      <div class="row">
+        <h2 class="h1 col text-center">Химчистка и Ремонт</h2>
+      </div>
+      <div class="row categories-list">
+        <div class="col-md-4">
+          <a href="#" class="categories-item categories-shoes" data-toggle="modal" data-target="#modal--price-1">
+            Обувь
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="categories-item categories-clothes" data-toggle="modal" data-target="#modal--price-1">
+            Одежда
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="categories-item categories-bags" data-toggle="modal" data-target="#modal--price-1">
+            Сумки
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="h1 col text-center">Цены</h2>
+      </div>
+      <div class="row price-list">
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Пальто
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Дубленка
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Шуба
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Пальто
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Дубленка
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="price-item">
+            Шуба
+            <span class="price-item-value">от 3000 ₽</span>
+          </a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <a href="#" class="btn btn--fill" data-toggle="modal" data-target="#modal--price-1">Все цены</a>
+      </div>
+    </div>
+  </section>
+  @@include('components/modal--price-1.html')
+
+  @@include('components/sale.html')
+  <section class="section consult">
+    <div class="container">
+      <div class="row">
+        <h2 class="h1 col text-center">Бесплатная онлайн-консультация 24/7
+          <p class="text">с нашими технологами</p>
+        </h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+          <ol class="consult-list">
+            <li>сфотографируйте предмет гардероба, который требует ремонта, или снимите его на видео. <b>Важно:</b> на фото или видео должно быть хорошо видно место, которое требуется отремонтировать</li>
+            <li>обозначьте задачу, например: «требуется почистить сумку» или «сделать профилактику обуви»</li>
+            <li>отправьте всю информацию в WhatsApp или в Директ инстаграма</li>
+            <li>готово! В течение 24 часов мы дадим вам ответ по ремонту от наших технологов, а также проконсультируем по стоимости и срокам работы</li>
+            <li>если вас все устроит, вы сможете сделать заказ</li>
+            <li>мы организуем доставку: заберём вещь, а затем доставим её по любому удобному адресу</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section reviews">
+    <div class="container">
+      <div class="row">
+        <h2 class="h1 col text-center">Отзывы</h2>
+      </div>
+      <div class="row reviews-list">
+        <div class="col-md-6 col-lg-4">
+          <div class="reviews-item">
+            <img class="reviews-item-screenshot" src="images/review-1.png" alt="Отзыв">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="reviews-item">
+            <div class="reviews-item-top">
+              <span class="reviews-item-name">Ирина</span>
+              <div class="reviews-item-rating">
+                <div class="value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pharetra in elementum lectus id mauris montes, faucibus.</div>
+            <span class="reviews-item-data">25 сентября 2020г.</span>
+            <div class="reviews-item-work">
+              <span>до/после</span>
+              <img class="before" src="#" alt="До">
+              <img class="after" src="#" alt="После">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="reviews-item">
+            <div class="reviews-item-top">
+              <span class="reviews-item-name">Ирина</span>
+              <div class="reviews-item-rating">
+                <div class="value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate pharetra in elementum lectus id mauris montes, faucibus.</div>
+            <span class="reviews-item-data">25 сентября 2020г.</span>
+            <div class="reviews-item-work">
+              <span>до/после</span>
+              <img class="before" src="#" alt="До">
+              <img class="after" src="#" alt="После">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

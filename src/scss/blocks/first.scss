@@ -1,0 +1,24 @@
+.first {
+  background: #F0F7FD url('../images/bg-1.jpg') no-repeat bottom right / 55%;
+}
+
+.first .h1 {
+  margin-bottom: 25px;
+}
+
+
+@media (max-width: 576px) {
+  .first {
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0) 85%, #F2F2F2 100%),
+                #F0F7FD url('../images/bg-1.jpg') no-repeat bottom right / 266px;
+
+    .h1 {
+      font-weight: 600;
+      color: #7A6D4D;
+    }
+
+    .text {
+      font-size: 12px;
+    }
+  }
+}

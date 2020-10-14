@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'fonts';
+@import 'global';
+
+//-----------------------------------------------------------------------------------------------------------
+//
+//                                                    START CODE
+//
+//-----------------------------------------------------------------------------------------------------------
+
+@import 'blocks/header';
+@import 'blocks/navbar';
+@import 'blocks/dropdown';
+@import 'blocks/btn';
+@import 'blocks/modal';
+@import 'blocks/form';
+
+@import 'blocks/first';
+@import 'blocks/stages';
+@import 'blocks/categories';
+@import 'blocks/price';
+@import 'blocks/sale';
+@import 'blocks/consult';
+@import 'blocks/reviews';
+@import 'blocks/cart';
+@import 'blocks/profile';
+
+
+@import 'blocks/footer';
+//-----------------------------------------------------------------------------------------------------------
+//
+//                                                    END CODE
+//
+//-----------------------------------------------------------------------------------------------------------
+
+@import 'media';

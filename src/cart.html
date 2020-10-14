@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('components/_head.html')
+
+<body>
+  @@include('components/_header.html')
+  <!-- WRITE CODE HERE -->
+
+  <section class="section cart">
+    <div class="container">
+      <div class="row">
+        <h1 class="h1 col">Корзина</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-7 col-lg-5 mb-4">
+          <table class="cart-table">
+            <tr class="cart-item">
+              <td class="cart-item-name">Химчистка обуви из кожи</td>
+              <td>
+                <input class="cart-item-count cart-spinner" name="quantity" value="2" readonly>
+              </td>
+              <td class="cart-item-price">4 000 ₽</td>
+            </tr>      
+            <tr class="cart-item">
+              <td class="cart-item-name">Ручная чистка сумок до 30см (сложные)</td>
+              <td>
+                <input class="cart-item-count cart-spinner" name="quantity" value="1" readonly>
+              </td>
+              <td class="cart-item-price">5 000 ₽</td>
+            </tr>      
+          </table>
+          <a href="#" class="btn" data-toggle="modal" data-target="#modal--price-1">Добавить услуги</a>
+        </div>
+        <div class="col-md-5 col-lg-4 ml-auto">
+          <div class="cart-total">
+            <p class="cart-total-title">Итого:
+              <span class="cart-total-sum">13 230 ₽</span>
+            </p>
+            <p class="cart-total-subtitle">У вас 00 000 баллов</p>
+            <a href="#" class="btn">Использовать баллы</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="h1 col">Оформление заказа</h2>
+      </div>
+      <form class="row form-order">
+        <div class="col-md-4">
+          <p class="form-order-title">Контактные данные</p>
+          <div class="form-group">
+            <label class="sr-only" for="order-surname">ФИО</label>
+            <input id="order-surname" class="form-control" type="text" placeholder="ФИО" required>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="order-email">E-mail</label>
+            <input id="order-email" class="form-control" type="email" placeholder="E-mail" required>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="order-tel">Телефон</label>
+            <input id="order-tel" class="form-control" type="tel" placeholder="8 (___) ___ - ____" required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <p class="form-order-title">Адрес</p>
+          <div class="form-group">
+            <label class="sr-only" for="order-street">Улица</label>
+            <input id="order-street" class="form-control" type="text" placeholder="Улица" required>
+          </div>
+          <div class="d-flex form-group-home">
+            <div class="form-group mr-1">
+              <label class="sr-only" for="order-house">Дом</label>
+              <input id="order-house" class="form-control" type="text" placeholder="Дом" required>
+            </div>
+            <div class="form-group mr-1">
+              <label class="sr-only" for="order-tel">Корпус</label>
+              <input id="order-tel" class="form-control" type="text" placeholder="Корпус" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="order-tel">Квартира</label>
+              <input id="order-tel" class="form-control" type="text" placeholder="Квартира" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="order-tel">Коментарий</label>
+            <input id="order-tel" class="form-control" type="text" placeholder="Коментарий" required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <p class="form-order-title">Дата и время</p>
+          <div class="form-group">
+            <label class="sr-only" for="order-date">Дата</label>
+            <input id="order-data" class="form-control" type="date" required>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="order-time">Время</label>
+            <input id="order-time" class="form-control" type="time" required>
+          </div>
+          <button type="submit" class="btn btn--fill w-100">Заказать</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  @@include('components/modal--price-1.html')
+  @@include('components/sale.html')
+
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

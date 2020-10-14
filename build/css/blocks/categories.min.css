@@ -1,0 +1,24 @@
+.categories-list{margin-bottom:80px}.categories-item{display:block;height:160px;padding:15px;font-weight:500;font-size:18px;border-radius:10px;border:1px solid #c2b89f;background-repeat:no-repeat;background-position:right center;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}.categories-item:hover{-webkit-box-shadow:2px 4px 20px rgba(0,0,0,.15);box-shadow:2px 4px 20px rgba(0,0,0,.15);-webkit-transition:.5s;-o-transition:.5s;transition:.5s}.categories-shoes{background-image:url(../images/footwear.png)}.categories-clothes{background-color:#f5f9fa;background-image:url(../images/clothes.png)}.categories-bags{background-image:url(../images/bag.png)}@media (min-width:768px) and (max-width:992px){.categories-item{background-position:right -70px center}}@media (max-width:576px){.categories-item{margin-bottom:15px}}
+@supports (-webkit-appearance:none){
+.categories-shoes{background-image:url(../images/footwear.webp)}
+.categories-clothes{background-image:url(../images/clothes.webp)}
+.categories-bags{background-image:url(../images/bag.webp)}
+}
+
+ @media (min-width:768px) and (max-width:992px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width:576px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJsb2Nrcy9jYXRlZ29yaWVzLm1pbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsaUJBQWlCLGNBQUEsS0FBbUIsaUJBQWlCLFFBQUEsTUFBYyxPQUFBLE1BQWEsUUFBQSxLQUFhLFlBQUEsSUFBZ0IsVUFBQSxLQUFlLGNBQUEsS0FBbUIsT0FBQSxJQUFBLE1BQUEsUUFBeUIsa0JBQUEsVUFBNEIsb0JBQUEsTUFBQSxPQUFpQyxtQkFBQSxJQUFBLGNBQUEsSUFBQSxXQUFBLElBQWdCLHVCQUF1QixtQkFBQSxJQUFBLElBQUEsS0FBQSxnQkFBQSxXQUFBLElBQUEsSUFBQSxLQUFBLGdCQUF5QyxtQkFBQSxJQUFBLGNBQUEsSUFBQSxXQUFBLElBQWdCLGtCQUFrQixpQkFBQSw0QkFBK0Msb0JBQW9CLGlCQUFBLFFBQXlCLGlCQUFBLDJCQUE4QyxpQkFBaUIsaUJBQUEsdUJBQTBDLCtDQUFpRCxpQkFBaUIsb0JBQUEsTUFBQSxNQUFBLFFBQXdDLHlCQUEwQixpQkFBaUIsY0FBQSIsImZpbGUiOiJibG9ja3MvY2F0ZWdvcmllcy5taW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhdGVnb3JpZXMtbGlzdHttYXJnaW4tYm90dG9tOjgwcHh9LmNhdGVnb3JpZXMtaXRlbXtkaXNwbGF5OmJsb2NrO2hlaWdodDoxNjBweDtwYWRkaW5nOjE1cHg7Zm9udC13ZWlnaHQ6NTAwO2ZvbnQtc2l6ZToxOHB4O2JvcmRlci1yYWRpdXM6MTBweDtib3JkZXI6MXB4IHNvbGlkICNDMkI4OUY7YmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O2JhY2tncm91bmQtcG9zaXRpb246cmlnaHQgY2VudGVyO3RyYW5zaXRpb246MC41c30uY2F0ZWdvcmllcy1pdGVtOmhvdmVye2JveC1zaGFkb3c6MnB4IDRweCAyMHB4IHJnYmEoMCwwLDAsMC4xNSk7dHJhbnNpdGlvbjowLjVzfS5jYXRlZ29yaWVzLXNob2Vze2JhY2tncm91bmQtaW1hZ2U6dXJsKFwiLi4vaW1hZ2VzL2Zvb3R3ZWFyLnBuZ1wiKX0uY2F0ZWdvcmllcy1jbG90aGVze2JhY2tncm91bmQtY29sb3I6I0Y1RjlGQTtiYWNrZ3JvdW5kLWltYWdlOnVybChcIi4uL2ltYWdlcy9jbG90aGVzLnBuZ1wiKX0uY2F0ZWdvcmllcy1iYWdze2JhY2tncm91bmQtaW1hZ2U6dXJsKFwiLi4vaW1hZ2VzL2JhZy5wbmdcIil9QG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KSBhbmQgKG1heC13aWR0aDogOTkycHgpey5jYXRlZ29yaWVzLWl0ZW17YmFja2dyb3VuZC1wb3NpdGlvbjpyaWdodCAtNzBweCBjZW50ZXJ9fUBtZWRpYSAobWF4LXdpZHRoOiA1NzZweCl7LmNhdGVnb3JpZXMtaXRlbXttYXJnaW4tYm90dG9tOjE1cHh9fVxuIl19 */

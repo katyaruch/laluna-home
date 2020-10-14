@@ -1,0 +1,114 @@
+.profile {
+
+}
+
+.profile-nav {
+  margin-bottom: 30px;
+}
+
+.profile-nav-item {
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.profile-nav-item.active {
+  font-weight: bold;
+  border: 1px solid #C2B89F;
+  color: #C2B89F;
+}
+
+.profile-order {
+  margin-bottom: 20px;
+}
+
+.profile-order-title {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px 20px;
+  background: #F2F2F2;
+  border-radius: 10px;
+}
+
+.profile-order-cancel {
+  text-align: right;
+  font-size: 14px; 
+}
+
+.profile-order-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0;
+}
+
+.profile-order-item-name {
+  margin-right: 20px;
+}
+
+.profile-order-item-count {
+  margin-right: 20px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.profile-order-item-price {
+  display: inline-block;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.profile-order-total {
+  margin: 20px 0;
+}
+
+.profile-order-status {
+  margin-bottom: 20px;
+  text-align: right;
+
+  .value {
+    font-weight: 500;
+    font-size: 16px;
+    color: #E6B06C;
+  }
+}
+
+.profile-order-sum {
+  text-align: right;
+  .value {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.profile-bonus-info {
+  padding: 30px;
+  
+  border: 1px solid #C2B89F;
+  border-radius: 10px;
+
+  .btn {
+    min-width: auto;
+  }
+}
+
+.profile-bonus-title {
+}
+
+.profile-bonus-sum {
+  display: block;
+  margin: 10px 0;
+
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.profile-bonus-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.profile-bonus-text {
+  margin-right: 20px;
+  font-size: 14px;
+}

@@ -1,0 +1,54 @@
+.navbar {
+  
+}
+
+.navbar-toggler {
+
+}
+
+.navbar-toggler-icon {
+  position: relative;
+
+  display: block;
+  width: 24px;
+  height: 2px;
+
+  background: #E0E0E0;
+  opacity: 1;
+  transition: 1s;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+
+    display: block;
+    height: 2px;
+
+    background: #E0E0E0;
+    transition: transform .5s;
+  } 
+
+  &:before {
+    bottom: 6px;
+    width: 24px;
+  }
+
+  &:after {
+    top: 6px;
+    width: 16px;
+  }
+}
+
+.navbar-collapse.show ~ .navbar-toggler .navbar-toggler-icon {
+  background: transparent;
+
+  &:before {
+    transform: translateY(6px) rotate(135deg);
+  }
+
+  &:after {
+    width: 24px;
+    transform: translateY(-6px) rotate(-135deg);
+  }
+}

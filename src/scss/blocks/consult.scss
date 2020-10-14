@@ -1,0 +1,17 @@
+.consult {
+  .h1 {
+    margin-bottom: 25px;
+  }
+}
+
+.consult-list {
+  padding-left: 32px;
+}
+.consult-list li {
+  margin-bottom: 20px;
+}
+
+.consult-list li::marker {
+  font-weight: bold;
+  color: #E6B06C;
+}

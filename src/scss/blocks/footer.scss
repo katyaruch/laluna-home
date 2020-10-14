@@ -1,0 +1,44 @@
+.footer {
+  padding: 40px 0;
+
+  .link-tel {
+    margin-left: 13px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .footer {
+    text-align: center;
+
+    .btn {
+      min-width: auto;
+    }
+
+    .link-instagram,
+    .link-tel {
+      display: inline-block;
+      margin: 20px 13px 15px;
+      color: #7A6D4D;
+
+      svg  {
+        margin-right: 10px;
+        path {
+          fill: #7A6D4D;
+        }
+      }
+    }
+
+    .link-instagram {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .btn--direct {
+      display: none;
+    }
+  }
+}
